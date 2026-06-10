@@ -81,3 +81,7 @@ Sau khi máy khởi động vào màn hình chính, bạn thực hiện các bư
     *   Bật tính năng bypass bảo mật, ẩn bootloader và thiết lập các ứng dụng cần ẩn root thông qua menu trực quan của ứng dụng.
 3.  **KernelSU-Next:**
     *   Cài đặt app quản lý `KernelSU` (manager) để cấp quyền root cho các ứng dụng cần thiết và kích hoạt Zygisk để bổ sung tính năng an toàn hệ thống.
+4.  **Tối ưu hóa BBR & Mạng di động Nâng cao (Tùy chọn):**
+    *   Do nhân Kernel của chúng ta đã tích hợp sẵn BBR ở mức hệ thống, bạn có thể cài đặt thêm Module Magisk/KernelSU [TCP_Optimiser_Module](https://github.com/fatalcoder524/TCP_Optimiser_Module) trực tiếp qua ứng dụng KernelSU.
+    *   Module này giúp tự động hóa việc chuyển đổi giữa các thuật toán tối ưu (như BBR cho Wi-Fi và Cubic/Westwood cho mạng di động tùy theo nhà mạng) đồng thời tối ưu hóa Initial Congestion Window (`initcwnd`) và Initial Receive Window (`initrwnd`) giúp tăng tốc độ tải trang lúc bắt đầu kết nối.
+
