@@ -16,7 +16,7 @@ Toàn bộ các tệp tin cần thiết được lưu trữ tại thư mục [ex
     *   [vbmeta.img](file:///home/bdtg/Desktop/AuroraKernel/extracted_20260610_160317/vbmeta.img)
     *   [vbmeta_system.img](file:///home/bdtg/Desktop/AuroraKernel/extracted_20260610_160317/vbmeta_system.img)
 3.  **Kernel Custom & KernelSU-Next:**
-    *   [Aurora-Kernel-aurora-GKI-v1.0.zip](file:///home/bdtg/Desktop/AuroraKernel/Aurora-Kernel-aurora-GKI-v1.0.zip) (Chứa nhân `Image` và các module đã tối ưu).
+    *   [Aurora-Kernel-aurora-GKI-v1.1-Optimized.zip](file:///home/bdtg/Desktop/AuroraKernel/Aurora-Kernel-aurora-GKI-v1.1-Optimized.zip) (Chứa nhân `Image` và các module đã tối ưu hóa mạng BBR/RAM ZRAM).
 
 ---
 
@@ -64,7 +64,7 @@ Trên Snapdragon 8 Gen 3 (Android 14/15/16), các phân vùng logic nằm trong 
 Cách flash nhân GKI đã compile:
 
 1.  Khởi động máy vào Recovery tùy chỉnh (như TWRP).
-2.  Sao chép tệp zip [Aurora-Kernel-aurora-GKI-v1.0.zip](file:///home/bdtg/Desktop/AuroraKernel/Aurora-Kernel-aurora-GKI-v1.0.zip) vào bộ nhớ máy.
+2.  Sao chép tệp zip [Aurora-Kernel-aurora-GKI-v1.1-Optimized.zip](file:///home/bdtg/Desktop/AuroraKernel/Aurora-Kernel-aurora-GKI-v1.1-Optimized.zip) vào bộ nhớ máy.
 3.  Chọn cài đặt (Install) tệp zip này từ TWRP để flash nhân và các module tương thích vào phân vùng `boot`.
 4.  Reboot hệ thống.
 
