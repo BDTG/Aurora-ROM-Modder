@@ -1,0 +1,30 @@
+# ROM Images and large bin files
+*.img
+*.img.new
+*.img.orig
+*.zip
+*.bin
+extracted_*/
+
+# GKI Kernel Build Tree (Managed in its own repo)
+BUILD.bazel
+WORKSPACE
+msm-kernel/
+common/
+kernel/
+common-modules/
+prebuilts/
+build/
+external/
+vendor/
+out/
+AnyKernel3/
+.repo/
+bazel-*
+
+# Temp and logs
+scratch/build_temp/
+scratch/build_temp*/
+*.log
+.gemini/
+build_temp/
